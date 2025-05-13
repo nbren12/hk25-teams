@@ -4,8 +4,7 @@ NVIDIA has been exploring the use of AI to improve the workflows associated with
 
 In this cross-cutting activity we will evaluate the capabilities and limitations of the emulator, and its ability to learn differences among km-scale models. 
 
-
-- Arxiv:  (ETA 5/12 PM)
+- [📖 arXiv](https://arxiv.org/abs/2505.06474v1)
 
 ## Discussing on 
 
@@ -21,6 +20,10 @@ In this cross-cutting activity we will evaluate the capabilities and limitations
 
 - part 1: Noah, earth2grid+healpix: https://nvlabs.github.io/earth2grid/tutorials/healpix.html  (20 minutes)
 - part 2: Tao, inference + dataloaders + cbottle training: https://nvlabs.github.io/cBottle/tutorials/  (40 minutes)
+
+# Quicklinks
+
+- [Basics of Running Jobs at NERSC](https://docs.nersc.gov/jobs/)
 
 ## Sketch of initial activities:
 
