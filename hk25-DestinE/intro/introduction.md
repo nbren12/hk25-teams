@@ -5,7 +5,7 @@
 - [Which simulations are available? -> Climate DT simulation overview](https://destine.ecmwf.int/climate-change-adaptation-digital-twin-climate-dt/)
 - [Which variables were saved? -> Data catalogue for ClimateDT](https://confluence.ecmwf.int/display/DDCZ/Climate+DT+Phase+1+data+catalogue#ClimateDTPhase1datacatalogue-Outputparameters)
 - [Are there example notebooks for my interactive analysis? -> Polytope examples](https://github.com/destination-earth-digital-twins/polytope-examples/tree/main/climate-dt)
-- [How do I adjust my data request? -> STAC catalogue](https://climate-catalogue.lumi.apps.dte.destination-earth.eu/?root=root)
+- [How do I adjust my data request? -> STAC catalogue](https://qubed.lumi.apps.dte.destination-earth.eu/)
 - [Is there documentation on Earthkit? -> Earthkit docs](https://earthkit.readthedocs.io/en/latest/)
 - [Can I see the status of the different data bridges somewhere? -> status.data.destination-earth.eu](https://status.data.destination-earth.eu/LUMI)
 
@@ -70,9 +70,9 @@ When using conda the approach is very similar to what is described in the [how t
 
 These are the main steps: 
 1. Create a directory, e.g. `destine_env` in the `work` of the project.
-2. Change into the `destine_env` directory and copy/move the [environment.yml](https://github.com/destination-earth-digital-twins/polytope-examples/blob/main/environment.yml) there.
-3. Create the environment (this may take a while) by running `conda env create -f environment.yaml -p <path-to-your-environment-folder>`
-4. Activate the environment `conda activate <path-to-your-environment-folder`
+2. Change into the `destine_env` directory and copy/move the [environment.yml](https://github.com/destination-earth-digital-twins/polytope-examples/blob/main/environment.yml) there `wget https://raw.githubusercontent.com/destination-earth-digital-twins/polytope-examples/refs/heads/main/environment.yml`.
+3. Create the environment (this may take a while) by running `mamba env create -f environment.yml -p <path-to-your-environment-folder>`
+4. Activate the environment `mamba activate <path-to-your-environment-folder`
 5. Create a jupyter kernel if you want to use jupyter notebooks by running `python3 -m ipykernel install --name global-hackathon-destine --user`
 
    
@@ -101,4 +101,4 @@ request = {
 }
 ```
 
-This polytope request can be modified to request data from any of the available simulations. The prototype [STAC catalogue](https://climate-catalogue.lumi.apps.dte.destination-earth.eu/?root=root) offers an interactive interface to create your custom data request.
+This polytope request can be modified to request data from any of the available simulations. The prototype [STAC catalogue](https://qubed.lumi.apps.dte.destination-earth.eu/) offers an interactive interface to create your custom data request.
